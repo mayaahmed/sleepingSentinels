@@ -1,0 +1,84 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	width: 100%;
+	display: flex;
+    background: black;
+}
+
+
+
+
+#containerDiv{
+margin-top:100px;
+margin-left: 50px;
+display: flex;
+
+}
+
+#wrapDiv{
+position: relative;
+margin-top: 130px;
+width: 100%;
+}
+
+.logo{
+margin-top: 0px;
+position: absolute;
+z-index: 3;
+opacity: 0.8;
+margin-left: 1%;
+}
+
+#iconpic{
+ animation: bounce 1s ease-in infinite;
+}
+
+@keyframes bounce{
+  0%, 100%{
+    transform: translateY(0px);}
+  50%{
+    transform: translateY(30px);}
+}
+  
+
+.front{
+margin-top: 50px;
+position: absolute;
+opacity: 0.8;
+color: khaki;
+font: bold 35px Comic Sans MS;
+margin-left: 20%;
+text-shadow: 1px 0px 2px yellow;
+}
+
+.front:hover{
+ // transform: rotate(5deg);
+opacity: 1;
+  }
+
+ .openBookButton{
+margin-top: 300px;
+margin-left: 100px;
+font-size: 22px;
+color: black;
+height: 30px;
+text-shadow: 1px 1px 1px  rgba(0,0,0,0.1);
+				display: inline-block;
+				background: khaki;
+				padding: 10px 20px;
+			
+				border: 1px solid #ccc;
+border-radius: 5px;
+				cursor: pointer;
+opacity: 0.8;
+		
+			}
+			.openBookButton:hover{
+				box-shadow: 1px 1px 1px 0 #ccc;
+			}
+
+
